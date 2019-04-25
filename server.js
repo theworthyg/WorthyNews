@@ -19,6 +19,7 @@ mongoose.Promise = Promise;
 //Define port
 var port = process.env.PORT || 3000
 
+
 // Initialize Express
 var app = express();
 
@@ -260,6 +261,8 @@ app.delete("/notes/delete/:note_id/:article_id", function(req, res) {
 });
 
 // Listen on port
-app.listen(port, function() {
+app.listen(process.env.PORT || 5000)
   console.log("App running on port " + port);
-});
+
+
+
