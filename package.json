@@ -1,0 +1,28 @@
+{
+  "name": "worthynews",
+  "version": "1.0.0",
+  "description": "worthynewsjson",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theworthyg/WorthyNews.git"
+  },
+  "author": "wg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theworthyg/WorthyNews/issues"
+  },
+  "homepage": "https://github.com/theworthyg/WorthyNews#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.5.3",
+    "morgan": "^1.9.1"
+  }
+}

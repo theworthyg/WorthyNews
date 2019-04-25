@@ -1,0 +1,28 @@
+body {
+    background-image: url("/assets/images/background.jpg");
+    background-color: black;
+    padding-top: 70px;
+}
+
+.deleteNote {
+	display: inline-block;
+}
+
+.previousNotes {
+    display: inline-block;
+    width: 90%
+}
+
+#scrape {
+    margin: 8px 0px;
+}
+
+h1 {
+
+    font-family: 'Cormorant Unicase', serif;
+    font-style: bold;
+}
+
+h4{
+    font-family: 'Josefin Slab', serif;
+}
